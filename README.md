@@ -23,6 +23,12 @@ pip install torchvision
 pip install torchaudio
 ``
 
+or 
+
+``
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+``
+
 ``
 cd TriplaneGaussian
 ``
@@ -71,6 +77,23 @@ cd checkpoints
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 ``
 
+``
+cd ..
+from huggingface_hub import hf_hub_download
+python from huggingface_hub import hf_hub_download
+``
+
+``
+pip install onnxruntime-gpu
+``
+
+``
+sudo apt-get install -y tensorrt
+``
+
+``
+python infer.py --config config.yaml data.image_list=[example_images/a_pikachu_with_smily_face.webp] --image_preprocess
+``
 
 
 
