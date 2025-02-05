@@ -60,6 +60,7 @@ pip install torch-scatter
 ``
 
 ``
+cd tgs/models/snowflake/pointnet2_ops_lib
 python setup.py install
 ``
 
