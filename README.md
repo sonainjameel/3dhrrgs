@@ -78,6 +78,8 @@ pip install onnxruntime-gpu
 sudo apt-get install -y tensorrt
 ```
 
+Note: There can be an issue with onnxruntime-gpu library after installation, however, the output can still be obtained. 
+
 ### 9️⃣ Hugging Face Model Download  
 
 ```python
