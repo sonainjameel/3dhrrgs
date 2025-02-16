@@ -6,7 +6,7 @@ This repository provides a pipeline for 3D reconstruction and relighting using *
 
 Follow the installation guides for each module:
 
-- **[Triplane Gaussian Installation](../TriplaneGaussian/Readme.md)**: For single-view 3D reconstruction using Triplane Gaussian.
+- **[Triplane Gaussian Installation](TriplaneGaussian/Readme.md)**: For single-view 3D reconstruction using Triplane Gaussian.
 - **[Relightable 3D Gaussian Installation](./relightable_README.md)**: For real-time relighting using BRDF decomposition and ray tracing.
 
 ## 🚀 Running Inference
