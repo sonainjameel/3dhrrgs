@@ -8,7 +8,7 @@ Follow the installation guides for each module:
 
 - **[Triplane Gaussian Installation](TriplaneGaussian/Readme.md)**: For single-view 3D reconstruction using Triplane Gaussian.
 - **[Relightable 3D Gaussian Installation](Relightable3DGaussian/README.md)**: For real-time relighting using BRDF decomposition and ray tracing.
-- **[Colmap to NeRF Transformation](Transformation File/README.md)**: For generating transform.jason file from the video output of Triplane Gaussian.
+- **[Colmap to NeRF Transformation](TransformationFile/README.md)**: For generating transform.jason file from the video output of Triplane Gaussian.
 
 ## 🚀 Running Inference
 
