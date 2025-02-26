@@ -27,7 +27,7 @@ colmap automatic_reconstructor --workspace_path /home/user/TriplaneGaussian/outp
 ```
 Convert the model to a text format:
 ```sh
-colmap model_converter --input_path /home/user/TriplaneGaussian/outputs/video/sparse/0 --output_path /home/js10533y/TriplaneGaussian/outputs/video/sparse/0 --output_type TXT
+colmap model_converter --input_path /home/user/TriplaneGaussian/outputs/video/sparse/0 --output_path /home/user/TriplaneGaussian/outputs/video/sparse/0 --output_type TXT
 ```
 
 ## Running the Modified `colmap2nerf.py`
