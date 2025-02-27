@@ -306,7 +306,8 @@ if __name__ == "__main__":
 		else:
 			out = {
 				"frames": [],
-				"aabb_scale": AABB_SCALE
+				#"aabb_scale": AABB_SCALE
+				"camera_angle_x": camera["camera_angle_x"],  # Keep only the necessary field
 			}
 
 		up = np.zeros(3)
