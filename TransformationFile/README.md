@@ -37,7 +37,7 @@ This modified version of `colmap2nerf.py` introduces the following changes:
 - **Simplified JSON Output:** Removed unnecessary metadata fields, keeping only `file_path`, `rotation`, and `transform_matrix` in `transforms.json`.
 - **Standardized Output Naming:** Converts filenames into a structured format (`test/000`, `test/001`, etc.) to ensure consistency.
 - **Fixed Rotation Parameter:** A fixed rotation value (`0.031415926535897934`) is added to each frame.
-- **Camera Metadata Cleanup:** Removed additional camera parameters (`k1, k2, cx, cy, etc.`) to match NeRF input requirements.
+- **Camera Metadata Cleanup:** Removed additional camera parameters (`k1, k2, cx, cy, etc.`) to match NEILF input requirements.
 - **Improved Output Formatting:** Ensured JSON is written in a structured manner with `sort_keys=True` to maintain readability.
 - **Scene Normalization:** Automatically adjusts scene orientation and scaling to align with NeRF's expectations.
 
