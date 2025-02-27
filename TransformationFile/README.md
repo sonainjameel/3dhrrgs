@@ -1,6 +1,6 @@
 # Colmap to NeRF Transformation
 
-This repository provides a modified version of `colmap2nerf.py` for converting COLMAP reconstructions to NeRF-compatible `transforms.json` format.
+This repository provides a modified version of `colmap2nerf.py` for converting COLMAP reconstructions to NEILF-compatible `transforms.json` format.
 
 ## Installation & Setup
 To set up the environment and install COLMAP, follow these steps:
