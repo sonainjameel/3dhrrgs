@@ -15,7 +15,7 @@ Clone the required repository:
 git clone https://github.com/NVlabs/instant-ngp.git
 ```
 
-Copy the modified `colmap2nerf.py` to the appropriate COLMAP script directory:
+Copy the `colmap2nerf.py` to the appropriate COLMAP script directory:
 ```sh
 cp colmap2nerf.py ~/colmap/scripts/python/
 ```
@@ -30,10 +30,6 @@ Convert the model to a text format:
 colmap model_converter --input_path /home/user/TriplaneGaussian/outputs/video/sparse/0 --output_path /home/user/TriplaneGaussian/outputs/video/sparse/0 --output_type TXT
 ```
 
-## Running the Modified `colmap2nerf.py`
-```sh
-python ~/colmap/scripts/python/colmap2nerf2.py --text /home/user/TriplaneGaussian/outputs/video/sparse/0 --images /home/user/TriplaneGaussian/outputs/video/sparse/images --out /home/user/TriplaneGaussian/outputs/video/transforms3.json --aabb_scale 16
-```
 
 ## Modifications in `colmap2nerf.py`
 This modified version of `colmap2nerf.py` introduces the following changes:
@@ -44,6 +40,11 @@ This modified version of `colmap2nerf.py` introduces the following changes:
 - **Camera Metadata Cleanup:** Removed additional camera parameters (`k1, k2, cx, cy, etc.`) to match NeRF input requirements.
 - **Improved Output Formatting:** Ensured JSON is written in a structured manner with `sort_keys=True` to maintain readability.
 - **Scene Normalization:** Automatically adjusts scene orientation and scaling to align with NeRF's expectations.
+
+## Running the Modified `colmap2nerf.py`
+```sh
+python ~/colmap/scripts/python/colmap2nerf2.py --text /home/user/TriplaneGaussian/outputs/video/sparse/0 --images /home/user/TriplaneGaussian/outputs/video/sparse/images --out /home/user/TriplaneGaussian/outputs/video/transforms3.json --aabb_scale 16
+```
 
 ## License
 This repository follows NVIDIA's licensing terms for the original `colmap2nerf.py` script. See the original repository for more details.
