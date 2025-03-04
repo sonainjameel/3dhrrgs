@@ -2,7 +2,7 @@
 
 This repository provides a pipeline for 3D reconstruction and relighting using **3D Gaussian Splatting** from a single-view image. The implementation is based on [TriplaneGaussian](https://github.com/VAST-AI-Research/TriplaneGaussian) and [Relightable 3D Gaussian](https://github.com/NJU-3DV/Relightable3DGaussian). It leverages PyTorch and related deep-learning frameworks to achieve high-quality relighting and reconstruction.
 
-## 📌 Installation
+## Installation
 
 Follow the installation guides for each module:
 
@@ -10,7 +10,7 @@ Follow the installation guides for each module:
 - **[Relightable 3D Gaussian Installation](Relightable3DGaussian/README.md)**: For real-time relighting using BRDF decomposition and ray tracing.
 - **[Colmap to NeRF Transformation](TransformationFile/README.md)**: For generating transform.jason file from the video output of Triplane Gaussian.
 
-## 🚀 Running Inference
+## Running Inference
 
 ### Triplane Gaussian Reconstruction
 ```bash
@@ -22,7 +22,7 @@ python infer.py --config config.yaml data.image_list=[example_images/a_pikachu_w
 python render.py --input_mesh input.obj --lighting_conditions config.yaml
 ```
 
-## 🔗 References
+## References
 
 - [TriplaneGaussian Repository](https://github.com/VAST-AI-Research/TriplaneGaussian)
 - [Relightable 3D Gaussian Repository](https://github.com/NJU-3DV/Relightable3DGaussian)
