@@ -19,7 +19,7 @@ python infer.py --config config.yaml data.image_list=[example_images/a_pikachu_w
 
 ### Relightable 3D Gaussian Rendering
 ```bash
-python render.py --input_mesh input.obj --lighting_conditions config.yaml
+python ----
 ```
 
 ## References
